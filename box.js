@@ -2,8 +2,8 @@ class Box{
 constructor(x,y,width,height){
 var v={
 'restitution':0.8,
-'friction':2,  
-'density':2
+'friction': 0.3,
+            'density': 1.0
 } 
 this.body=Bodies.rectangle(x,y,width,height,v);
 this.width=width;
